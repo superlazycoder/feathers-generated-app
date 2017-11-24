@@ -1,5 +1,6 @@
-const { authenticate } = require('feathers-authentication').hooks;
+const { authenticate } = require('@feathersjs/authentication').hooks;
 const { associateCurrentUser } = require('feathers-authentication-hooks');
+const errors = require('@feathersjs/errors');
 
 
 module.exports = {
